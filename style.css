@@ -1,0 +1,232 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+.body {
+    min-height: 100vh;
+    width: 100%;
+    background-color:#1F2937;
+    padding: 1.5rem 4rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    width: 100%;
+    background-color: #111827;
+    border-radius: 50px;
+    height: 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.7rem;
+    color:#ffff;
+    letter-spacing: 1px;
+    font-size: 19px;
+    font-weight: bold;
+    margin-bottom: 4rem;
+}
+
+
+.button {
+    background-color: #EC4899;
+    border-radius: 30px;
+    padding: 8px 10px;
+    border: 1px solid #EC4899;
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #ffff;
+}
+
+#p{
+  color: #EC4899;
+
+}
+
+.container1 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 454px;
+    background-color:#111827; 
+    padding: 32px;
+    border-radius: 30px;
+    margin-bottom: 40px;
+}
+
+.content1 {
+    height: 100%;
+    width: 50%;
+}
+
+.img {
+    height: 100%;
+    width: 50%;
+    
+}
+
+.img img {
+    height: 390px;
+    width: 608px;
+    border-radius: 30px;
+    padding-right: 28px;
+}
+
+#content1 h6 {
+    font-size:13px ;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color:#EC4899;
+    padding-bottom: 1rem;
+}
+
+#content1 {
+    padding-top: 65px;
+    margin: 0 24px;
+}
+
+#content1 h2{
+    font-size: 50px;
+    font-weight: 9px;
+    letter-spacing: 1px;
+    color:#ffff ;
+    margin-bottom: 1rem;
+}
+
+#content1 p {
+    color: #6B7280;
+    letter-spacing: 1px;
+    font-size: 21px;
+    font-weight: 9px;
+    margin-bottom: 1.5rem;
+}
+
+
+.container2 {
+    display: flex;
+    flex-direction: row;
+    background-color: #111827;
+    padding: 32px;
+    border-radius: 30px;
+    height: 616px;
+    margin-bottom: 60px;
+    width: 100%;
+}
+
+.content2 {
+    height: 100%;
+    width: 50%;
+    
+}
+
+#content2 form {
+   margin: 0 52px;
+   padding:12px;
+}
+
+input[type=text],select {
+    width: 100%;
+    padding: 15px 25px;
+    margin: 8px 0;
+    border: 1px solid #6B7280;
+    border-radius: 30px;
+    box-sizing: border-box;
+    background-color:#1F2937
+}
+
+.form {
+    color: #6B7280;
+}
+.text {
+        width: 100%;
+        padding: 15px 15px;
+        margin: 0 15px;
+        font-size: 15px;
+        font-weight: 9px;
+        text-align: center;
+        color: #ffff;
+}
+
+h2 {
+        width: 100%;
+        padding: 15px 15px;
+        margin: 0 10px;
+        font-size: 17px;
+        font-weight: 9px;
+        text-align: center;
+        color: #6B7280;
+}
+
+
+.button1 {
+    margin-top: 20px;
+    background-color: #EC4899;
+    border-radius: 30px;
+    padding: 8px 10px;
+    border: 1px solid #EC4899;
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #ffff;
+}
+
+.content3 {
+    display: flex;
+    flex-direction: row;
+    padding: 64px 32px;
+    background-color: #EC4899;
+    border-radius: 30px;
+    height: 616px;
+
+}
+
+
+.quote {
+    flex-direction: column;
+    width: 50%;
+    background-color: #EC4899;
+    border-radius: 30px;
+    height:100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: #ffff;
+    font-weight: bold;
+    
+}
+
+.paragraph {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.paragraph p{
+    font-size: 25px;
+    
+}
+
+.fa-brands {
+    font-size: 30px;
+}
+
+.container4 {
+    width: 100%;
+    background-color: #111827;
+    border-radius: 30px;
+    height: 10rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.7rem;
+    color: #ffff;
+    letter-spacing: 1px;
+    font-size: 19px;
+    font-weight: bold;
+    margin-bottom: 4rem;
+}
